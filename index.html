@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML c:</title>
+    <link rel="stylesheet" href="style.css">
+    <!--poner estilos a todo (desde otro archivo css)-->
 </head>
 <body>
-    <h1>hola mundo</h1>
+    <h1 style="color:rgb(255, 0, 0); size: 15px;">hola mundo</h1>
     <h2>hola mundo h2</h2>
     <hr>
     <a href="http://fing.uach.mx/" target="_blank">
-        <img src="imagenes/fing.png" alt="fing"/>
+        <img src="imagenes/fing.png" alt="fing" style="width: 50px; height:200px;">
     </a>
     <hr><!--linea negra-->
     <ul><!--listas-->
@@ -22,5 +24,32 @@
             <li>conta</li>
         </ol>
     </ul>
+    <br><!--crea espacios-->
+    <hr>
+    <table><!--tablas-->
+        <thead><!--encabezados-->
+            <tr><!--filas-->
+                <td>columna 1</td><!--columnas-->
+                <th>columna 2</th><!--negritas-->
+                <td>columna 3</td>
+                <td>columna 4</td>
+            </tr>
+        </thead>
+        <tr><!--filas-->
+            <td>columna 1</td><!--columnas-->
+            <th>columna 2</th><!--negritas-->
+            <td><a href="#">columna 3</a></td><!--link en un campo-->
+            <td>columna 4</td>
+        </tr>
+        
+    </table>
+    <hr>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex sequi quos in similique blanditiis laudantium cumque, velit at doloribus laboriosam voluptate numquam. Est fugiat eius rem quis ut inventore. Doloribus?</p>
+    <!--pone un parrafo con espacio arriba-->
+    <hr>
+    <video width="1200" height="700" controls><!--poner vidios-->
+         <source src="" type="video/mp4">
+    </video>
 </body>
 </html>
