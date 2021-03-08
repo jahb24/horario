@@ -27,6 +27,7 @@
     <br><!--crea espacios-->
     <hr>
     <table><!--tablas-->
+        <tbody></tbody>
         <thead><!--encabezados-->
             <tr><!--filas-->
                 <td>columna 1</td><!--columnas-->
@@ -51,5 +52,40 @@
     <video width="1200" height="700" controls><!--poner vidios-->
          <source src="" type="video/mp4">
     </video>
+
+    <form method="POST" action="https://google.com"><!--si no se pone el método, se pone get(inseguro)-->
+        <p>Nombre</p>
+        <input type="text" name="nombre" required><!--ingresar nombre afuerzas-->
+
+        <p>Apellido</p>
+        <input type="text" name="apellido" required>
+
+        <p>Fecha de nacimiento</p>
+        <input type="date" name="fecha nacimiento">
+
+        <p>Sexo</p>
+        <select name="sexo">
+            <option value="">Seleccionar</option>
+            <option value=1>Hombre</option>
+            <option value="M">Mujer</option>
+        </select>
+
+        <p>Correo</p>
+        <input type="email">
+
+        <p>Mensaje</p>
+        <textarea cols="40" rows="4"></textarea><!--pone area de texto-->
+
+        <p>Archivo</p>
+        <input type="file">
+
+        <p>Edad</p>
+        <input type="number">
+
+        <p>contraseña</p>
+        <input type="password">
+        <br><br>
+        <input type="submit" value="aceptar"><!--botón para enviar los datos-->
+    </form>
 </body>
 </html>
